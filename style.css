@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #121826;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.step{
+    background-color: #212936;
+    border: 1px solid #4d5562;
+    border-radius: 10px;
+    padding: 50px;
+}
+.step h1{
+    color: #e6e7eb;
+    font-size: 20px;
+}
+.step label{
+    color: #a1a1a9;
+}
+.step form{
+    display: flex;
+    flex-direction: column;
+}
+.step form input::placeholder{
+    color: #a1a1a9;
+}
+.step button{
+    color: #E5E7EB;
+    background-color: #845EEE;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+}
