@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi step register form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="step">
+            <h1>Register</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="enter your name">
+                <label for="email">Name</label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                <button type="submit">Continue</button>
+            </form>
+        </div>
+        <div class="step">
+            <h1>Wich topics you are interested in?</h1>
+            <form>
+                <select name="topics" id="topics" multiple>
+                    <option value="software-dev">Software Development</option>
+                    <option value="user-exp">User Experience</option>
+                    <option value="graphic-design">Graphicc Design</option>
+                </select>
+                <button type="submit">Continue</button>
+            </form>
+        </div>
+        <div class="step">
+            <h1>Summary</h1>
+            <p>Name: Emily</p>
+            <p>Email: emily@emily</p>
+            <p>Topics</p>
+            <ul>
+                <li>UX</li>
+                <li>graphic-design</li>
+            </ul>
+            <button type="submit">Confirm</button>
+        </div>
+        <div class="current-step">
+            <p>Step 1 of 3</p>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+    </div>
+</body>
+</html>
